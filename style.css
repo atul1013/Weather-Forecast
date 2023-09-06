@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css2?family=Preahvihear&display=swap;);
+
+body {
+    font-family: 'Preahvihear', sans-serif;
+    background: #1d1d1d;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgb(222, 222, 223);
+    background: linear-gradient(90deg, rgba(0,24,108,1) 0%, rgba(23,209,144,1) 100%);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.searchBox {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#searchBox {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#searchBtn {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Forecast img{
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+}
+.Forecast h1{
+    font-size: 60px;
+    margin-bottom: -10px;
+    margin-top: -20px;
+}
+.Forecast h2{
+    font-size: 30px;
+    margin-top: -10px;
+}
+.Forecast h3 {
+    margin-top: -10px;
+}
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 500px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.details div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.details .column{
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+}
+.details .column img {
+    height: 60px;
+    width: 60px;
+}
+.details .column .humidity{
+    font-weight: bold;
+    font-size: 30px;
+}
+.details .column p {
+    margin: 0px;
+    font-size: 18px;
+}
+.details .column div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+.details .column .wind{
+    font-weight: bold;
+    font-size: 30px;
+}
